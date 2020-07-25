@@ -1,4 +1,4 @@
-# symfony-basic-elastic-search
+# symfony-elasticsearch
 
 Simple elastic search developed with symfony searching in article entity by docker
 

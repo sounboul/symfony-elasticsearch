@@ -1,0 +1,16 @@
+fos_elastica:
+    clients:
+        default: { host: '%es_host%', port: '%es_port%' }
+    indexes:
+        app:
+            use_alias: true
+            types:
+                articles:
+                    properties:
+                        type: ~
+                        name: ~
+                        slug: ~
+                        keyword: ~
+                    persistence:
+                        driver: orm
+                        model: App\Entity\Article
